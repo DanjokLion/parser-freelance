@@ -29,7 +29,7 @@ for num_page in range(1,30):
         order_dict[order_name] = [order_price, order_link]
 
 
-with open(f'order_{datetime.datetime.now().strftime("%d_%m_%Y")}.json', 'w', encoding='utf-8') as file:
+with open(f'habr_{datetime.datetime.now().strftime("%d_%m_%Y")}.json', 'w', encoding='utf-8') as file:
     try:
         json.dump(order_dict, file, indent = 4, ensure_ascii=False)
         print('Заказы получены')
