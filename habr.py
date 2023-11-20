@@ -7,9 +7,9 @@ headers = {
     'accepts': 'application/json, text/plain, */*',
     'user-Agent': ua.google,
 }
-order_dict = {}
+order_dict = []
 
-for num_page in range(1,30):
+for num_page in range(1,3):
     try:
         url = f'https://freelance.habr.com/tasks?only_with_price=true&categories=development_all_inclusive,development_backend,development_frontend,development_prototyping,development_ios,development_android,development_desktop,development_bots,development_games,development_1c_dev,development_scripts,development_voice_interfaces,development_other&page={num_page}'
     except:
@@ -21,12 +21,13 @@ for num_page in range(1,30):
     hrefOrder = soup.find_all('article', class_='task task_list')
 
     for order in hrefOrder:
+        temporary_dict = {}
         oName = order.find('a')
         order_name = order.find('a').text
         order_link = f'https://freelance.habr.com/{oName.get("href")}'
         order_price = order.find('span', class_='count').text
-        
-        order_dict[order_name] = [order_price, order_link]
+        temporary_dict = {'name': order_name, 'price': order_price, 'link': order_link}
+        order_dict.append(temporary_dict)
 
 
 with open(f'habr_{datetime.datetime.now().strftime("%d_%m_%Y")}.json', 'w', encoding='utf-8') as file:
