@@ -29,7 +29,6 @@ for num_page in range(1,3):
         temporary_dict = {'name': order_name, 'price': order_price, 'link': order_link}
         order_dict.append(temporary_dict)
 
-
 with open(f'habr_{datetime.datetime.now().strftime("%d_%m_%Y")}.json', 'w', encoding='utf-8') as file:
     try:
         json.dump(order_dict, file, indent = 4, ensure_ascii=False)
