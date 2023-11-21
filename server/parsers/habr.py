@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import json, requests, datetime
 from fake_useragent import UserAgent
+from scriptsParse import str_splitting
 
 ua = UserAgent()
 headers = {
@@ -25,8 +26,8 @@ for num_page in range(1,3):
         oName = order.find('a')
         order_name = order.find('a').text
         order_link = f'https://freelance.habr.com/{oName.get("href")}'
-        order_price = order.find('span', class_='count').text
-        temporary_dict = {'name': order_name, 'price': order_price, 'link': order_link}
+        price, hourOrProj  = str_splitting(order.find('span', class_='count').text)
+        temporary_dict = {'name': order_name, 'price': price, 'Per hour or per project': hourOrProj, 'link': order_link}
         order_dict.append(temporary_dict)
 
 with open(f'habr_{datetime.datetime.now().strftime("%d_%m_%Y")}.json', 'w', encoding='utf-8') as file:
