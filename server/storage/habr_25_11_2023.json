@@ -1,0 +1,302 @@
+[
+    {
+        "name": "Разработать торгового бота для IB TWS",
+        "price": 15000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540645"
+    },
+    {
+        "name": "Покупаю Whats App клоны",
+        "price": 7000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540899"
+    },
+    {
+        "name": "Парсер с оформлением в тг бота",
+        "price": 7000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540893"
+    },
+    {
+        "name": "Настроить Intellij+ Flutter+ IOS simulator",
+        "price": 500,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540885"
+    },
+    {
+        "name": "Выдача информации с одного сайта через другой",
+        "price": 30000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540879"
+    },
+    {
+        "name": "Написать ПО для датчика на Raspberry Pi или STM32 ",
+        "price": 10000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540877"
+    },
+    {
+        "name": "Простой код со светодиодной лентой ардуино",
+        "price": 500,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540875"
+    },
+    {
+        "name": "Программа для  записи данных от gps трекера в БД ",
+        "price": 10000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540863"
+    },
+    {
+        "name": "Создать бота в телеграмм и написать скрипт для автовыкупа товара",
+        "price": 20000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540861"
+    },
+    {
+        "name": "Разработать frontend (React, MongoDB), обязателен опыт с графиками",
+        "price": 50000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540853"
+    },
+    {
+        "name": "Миграция с AdminJS на Minimal Dashboard",
+        "price": 60000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540851"
+    },
+    {
+        "name": "Нужно собрать проект из VUE на IONIC VUE",
+        "price": 4000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540849"
+    },
+    {
+        "name": "Тг бот. Восстановление работы ",
+        "price": 6000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540847"
+    },
+    {
+        "name": "Разработка высокопроизводительного системного сервиса для обработки и ",
+        "price": 75000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540825"
+    },
+    {
+        "name": "Разработка приложения для iOS и Андроид",
+        "price": 100000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540803"
+    },
+    {
+        "name": "Разработать frontend для проекта приема платежей от пользователей",
+        "price": 50000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540793"
+    },
+    {
+        "name": "Разработать мобильное приложение + сайт",
+        "price": 350000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540789"
+    },
+    {
+        "name": "Требуется доработка сайта, написанного на React ",
+        "price": 7000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540761"
+    },
+    {
+        "name": "Нужно подобрать и не много доработать ERP клиники",
+        "price": 50000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540747"
+    },
+    {
+        "name": "Разработать Веб интерфейс для заполнения документов и поиском по БД",
+        "price": 1000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540745"
+    },
+    {
+        "name": "Подключить Celery, Celery beat в проект на Django",
+        "price": 1000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540739"
+    },
+    {
+        "name": "Настроить авторизацию для API в Битрикс",
+        "price": 10000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540735"
+    },
+    {
+        "name": "Автокликер - система передачи сигналов из одного ПО в копию того же ПО",
+        "price": 10000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540729"
+    },
+    {
+        "name": "Сверстать шаблон для python (jinja2+flask) на html+css+js",
+        "price": 30000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540727"
+    },
+    {
+        "name": "Доработать поля в корзине Тильда",
+        "price": 3000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540725"
+    },
+    {
+        "name": "Разработать торгового бота для IB TWS",
+        "price": 15000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540645"
+    },
+    {
+        "name": "Покупаю Whats App клоны",
+        "price": 7000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540899"
+    },
+    {
+        "name": "Парсер с оформлением в тг бота",
+        "price": 7000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540893"
+    },
+    {
+        "name": "Настроить Intellij+ Flutter+ IOS simulator",
+        "price": 500,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540885"
+    },
+    {
+        "name": "Выдача информации с одного сайта через другой",
+        "price": 30000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540879"
+    },
+    {
+        "name": "Написать ПО для датчика на Raspberry Pi или STM32 ",
+        "price": 10000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540877"
+    },
+    {
+        "name": "Простой код со светодиодной лентой ардуино",
+        "price": 500,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540875"
+    },
+    {
+        "name": "Программа для  записи данных от gps трекера в БД ",
+        "price": 10000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540863"
+    },
+    {
+        "name": "Создать бота в телеграмм и написать скрипт для автовыкупа товара",
+        "price": 20000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540861"
+    },
+    {
+        "name": "Разработать frontend (React, MongoDB), обязателен опыт с графиками",
+        "price": 50000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540853"
+    },
+    {
+        "name": "Миграция с AdminJS на Minimal Dashboard",
+        "price": 60000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540851"
+    },
+    {
+        "name": "Нужно собрать проект из VUE на IONIC VUE",
+        "price": 4000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540849"
+    },
+    {
+        "name": "Тг бот. Восстановление работы ",
+        "price": 6000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540847"
+    },
+    {
+        "name": "Разработка высокопроизводительного системного сервиса для обработки и ",
+        "price": 75000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540825"
+    },
+    {
+        "name": "Разработка приложения для iOS и Андроид",
+        "price": 100000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540803"
+    },
+    {
+        "name": "Разработать frontend для проекта приема платежей от пользователей",
+        "price": 50000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540793"
+    },
+    {
+        "name": "Разработать мобильное приложение + сайт",
+        "price": 350000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540789"
+    },
+    {
+        "name": "Требуется доработка сайта, написанного на React ",
+        "price": 7000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540761"
+    },
+    {
+        "name": "Нужно подобрать и не много доработать ERP клиники",
+        "price": 50000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540747"
+    },
+    {
+        "name": "Разработать Веб интерфейс для заполнения документов и поиском по БД",
+        "price": 1000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540745"
+    },
+    {
+        "name": "Подключить Celery, Celery beat в проект на Django",
+        "price": 1000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540739"
+    },
+    {
+        "name": "Настроить авторизацию для API в Битрикс",
+        "price": 10000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540735"
+    },
+    {
+        "name": "Автокликер - система передачи сигналов из одного ПО в копию того же ПО",
+        "price": 10000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540729"
+    },
+    {
+        "name": "Сверстать шаблон для python (jinja2+flask) на html+css+js",
+        "price": 30000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540727"
+    },
+    {
+        "name": "Доработать поля в корзине Тильда",
+        "price": 3000,
+        "Per&talk": "руб. за проект",
+        "link": "https://freelance.habr.com//tasks/540725"
+    }
+]
