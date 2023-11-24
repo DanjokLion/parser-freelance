@@ -27,7 +27,7 @@ for num_page in range(1,3):
         order_name = order.find('a').text
         order_link = f'https://freelance.habr.com/{oName.get("href")}'
         price, hourOrProj  = str_splitting(order.find('span', class_='count').text)
-        temporary_dict = {'name': order_name, 'price': price, 'PerHourOrPerProject': hourOrProj, 'link': order_link}
+        temporary_dict = {'name': order_name, 'price': price, 'Per&talk': hourOrProj, 'link': order_link}
         order_dict.append(temporary_dict)
 
 with open(f'habr_{datetime.datetime.now().strftime("%d_%m_%Y")}.json', 'w', encoding='utf-8') as file:

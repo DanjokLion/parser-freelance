@@ -1,4 +1,5 @@
 def str_splitting(arg):
+    if not arg[0].isdigit(): return 0, arg
     arg = list(arg)
     dig = []
     tp = []
