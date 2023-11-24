@@ -1,6 +1,6 @@
 import subprocess
 
-files = ['habr.py', 'freeru.py']
+files = ['server/parsers/habr.py', 'server/parsers/freejob.py']
 
 for file in files:
-    subprocess.Popen(args=['start', 'python', file], shell=True, stdout=subprocess.PIPE)
+    subprocess.Popen(['python', file], shell=True, stdout=subprocess.PIPE)
