@@ -22,4 +22,4 @@ sites = [
 
 if __name__ == '__main__':
     for site in sites:
-        fetchData(site['url'], site['addition'], site['params'], site['findBy'])
+        fetch_data(site['url'], site['addition'], site['params'], site['findBy'])
