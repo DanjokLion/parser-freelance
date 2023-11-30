@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 from fake_useragent import UserAgent
 from parsers.utils import str_splitting, json_dump
-
+from db import json_record
 
 def fetch_data(url, addition,  params, findBy, page_count = 3):
     ua = UserAgent()
@@ -31,4 +31,4 @@ def fetch_data(url, addition,  params, findBy, page_count = 3):
             price, hourOrProj  = str_splitting(order.find(findBy['order_block'], class_ = findBy['order_class']).text)
             order_dict.append({'name': order_name.text, 'price': price, 'Per&talk': hourOrProj, 'link': order_link})
 
-    json_dump(order_dict, url)
+    json_record(order_dict, url)

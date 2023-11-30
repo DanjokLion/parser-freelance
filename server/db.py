@@ -1,5 +1,6 @@
 import sqlite3, json
 from parsers.utils import get_name
+import os 
 
 conn = sqlite3.connect('maindb.db')
 
@@ -15,7 +16,7 @@ cur.execute(
         link TEXT
     )
 ''')
-
+#Функция записывает данные формата json, что формирует index и сразу записывает их в бд
 def json_record(order_dict, url):
     name = get_name(url)
 
@@ -25,7 +26,10 @@ def json_record(order_dict, url):
     for item in data:
         cur.execute('INSERT INTO jobs (name, price, PerTalk, link) VALUES (?, ?, ?, ?)', 
                     item['name'], item['price'], item['Per&Talk'], item['link'])
-
+#Потестить и потом только раскомментить 
+    # os.remove('./storage/{name}_{datetime.datetime.now().strftime("%d_%m_%Y")}.json')
     conn.commit()
     conn.close()
-    pass
+
+conn.commit()
+conn.close()
