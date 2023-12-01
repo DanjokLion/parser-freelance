@@ -1,5 +1,5 @@
 from parsers.fetch_tasks import fetch_data
-
+import subprocess
 
 sites = [
     {
@@ -23,3 +23,5 @@ sites = [
 if __name__ == '__main__':
     for site in sites:
         fetch_data(site['url'], site['addition'], site['params'], site['findBy'])
+
+subprocess.run(['uvicorn', 'main:app', '--host', '127.0.0.1', '--port', '8000'])
