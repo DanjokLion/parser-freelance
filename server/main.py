@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 app = FastAPI()
 
 #Соединение с бд
-engine = create_engine('sqlite:///db.db')
+engine = create_engine('sqlite:///maindb.db')
 
 # Сессия на время соединения с бд
 Session = sessionmaker(bind=engine)
