@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-class HabrItem(BaseModel):
+class WorkItem(BaseModel):
     id: int
     name: str
     price: str
