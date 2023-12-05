@@ -36,5 +36,5 @@ def fetch_data(url, addition,  params, findBy, page_count = 3):
             price, hourOrProj  = str_splitting(order.find(findBy['order_block'], class_ = findBy['order_class']).text)
             order_dict.append({'name': order_name.text, 'price': price, 'Per&talk': hourOrProj, 'link': order_link})
 
-    collection.insert_many(order_dict)
+    collection.insert_many(*order_dict)
     # json_record(order_dict, url)
