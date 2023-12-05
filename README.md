@@ -7,7 +7,7 @@ FrostRay Parser Freelance
 
 ### Установка зависимостей
     pip install
-    fastapi, fake_useragent, bs4, requests, pydantic
+    fastapi, fake_useragent, bs4, requests, pydantic, pymongo
 
     cd <project_dir>/client
     npm install
